@@ -5,7 +5,7 @@
     <div class="sakeai-header">
       <img src="../assets/image/sakeai_logo.svg" />
       <div class="sakeai-header-right-btn">
-        <div class="logout-btn">口コミを投稿</div>
+        <button class="logout-btn">口コミを投稿</button>
         <div class="sakeai-header-user-detail">
           <img src="../assets/image/user.png" />
           <div class="user-name">山田 太郎</div>
@@ -513,6 +513,7 @@ body{
   justify-content:center;
 }
 .logout-btn{
+  border:none;
   cursor:pointer;
   width:130px;
   height:40px;
@@ -690,6 +691,7 @@ body{
   justify-content:space-between;
 }
 .liq-cheer{
+  height:44px;
   border: 2px solid #EFEFEF;
   border-radius: 4px;
   display:flex;
@@ -699,6 +701,7 @@ body{
   cursor:pointer;
 }
 .liq-drink{
+  height:44px;
   border: 2px solid #EFEFEF;
   border-radius: 4px;
   padding:8px 41px;
